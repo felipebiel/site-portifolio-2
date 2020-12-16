@@ -1,24 +1,21 @@
-# portifolio-landing-page-2
+# Site de Portifólio 2
 
-## Project setup
+Um site de portifólio feito em SCSS, HTML5 e Vue. Usando conceitos de BEM, variáveis e cálculos.
+
+Baseado nesse vídeo do canal [BedimCode](https://www.youtube.com/watch?v=AKNvTxWOdKw&ab_channel=Bedimcode).
+
+
+## Instalar dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila os arquivos para rodar
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compila os arquivos para produção
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

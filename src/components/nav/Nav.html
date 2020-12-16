@@ -4,7 +4,7 @@
             <a href="" class="nav__logo">Felipe Biel</a>
         </div>
 
-        <div class="nav__menu" id="nav-menu">
+        <div class="nav__menu" id="nav-menu" :class="{show: showMenu}">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
@@ -14,7 +14,7 @@
             </ul>
         </div>
 
-        <div class="nav__toggle" id="nav-toggle">
+        <div class="nav__toggle" id="nav-toggle" @click="showMenu = !showMenu">
             <box-icon name='menu'></box-icon>
         </div>
     </nav>

@@ -5,6 +5,7 @@
       <Home></Home>
       <About></About>
       <Skills></Skills>
+      <Work></Work>
     </main>
   </div>
 </template>
@@ -14,6 +15,7 @@ import Header from '@/components/header/Header.vue';
 import Home from '@/components/home/Home.vue';
 import About from '@/components/about/About.vue';
 import Skills from '@/components/skills/Skills.vue';
+import Work from '@/components/work/Work.vue';
 
 
 export default {
@@ -22,7 +24,8 @@ export default {
     Header,
     Home,
     About,
-    Skills
+    Skills,
+    Work
   }
 }
 </script>

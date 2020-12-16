@@ -6,6 +6,7 @@
       <About></About>
       <Skills></Skills>
       <Work></Work>
+      <Contact></Contact>
     </main>
   </div>
 </template>
@@ -16,6 +17,7 @@ import Home from '@/components/home/Home.vue';
 import About from '@/components/about/About.vue';
 import Skills from '@/components/skills/Skills.vue';
 import Work from '@/components/work/Work.vue';
+import Contact from '@/components/contact/Contact.vue';
 
 
 export default {
@@ -25,7 +27,8 @@ export default {
     Home,
     About,
     Skills,
-    Work
+    Work,
+    Contact
   }
 }
 </script>

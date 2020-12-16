@@ -4,6 +4,7 @@
     <main class="l-main">
       <Home></Home>
       <About></About>
+      <Skills></Skills>
     </main>
   </div>
 </template>
@@ -12,6 +13,7 @@
 import Header from '@/components/header/Header.vue';
 import Home from '@/components/home/Home.vue';
 import About from '@/components/about/About.vue';
+import Skills from '@/components/skills/Skills.vue';
 
 
 export default {
@@ -19,7 +21,8 @@ export default {
   components: {
     Header,
     Home,
-    About
+    About,
+    Skills
   }
 }
 </script>

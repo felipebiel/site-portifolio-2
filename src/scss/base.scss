@@ -139,3 +139,45 @@ img {
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
+
+/* button */
+
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: 0.5rem;
+
+     &:hover {
+        box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+      }
+  }
+
+
+  @media screen and (min-width: 769px) {
+    body {
+      margin: 0;
+    }
+  
+    .section {
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+    }
+  
+    .section-title {
+      margin-bottom: var(--mb-6);
+    }
+    .section-title::after {
+      width: 80px;
+      top: 3rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .bg-grid {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

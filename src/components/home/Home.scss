@@ -38,3 +38,37 @@
     border-radius: 100%;
   }
   
+
+  @media screen and (min-width: 769px) {
+      
+    .home {
+      height: 100vh;
+    }
+  
+    .home__data {
+      align-self: flex-end;
+    }
+    .home__social {
+      padding-top: 0;
+      padding-bottom: 2.5rem;
+      flex-direction: row;
+      align-self: flex-end;
+
+      &--icon {
+        margin-bottom: 0;
+        margin-right: var(--mb-4);
+        font-size: 3rem;
+      }
+    }
+    .home__img {
+      width: 457px;
+      bottom: 15%;
+    }
+
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .home__img {
+      right: 10%;
+    }
+  }

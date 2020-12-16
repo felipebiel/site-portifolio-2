@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Home></Home>
+    <main class="l-main">
+      <Home></Home>
+    </main>
   </div>
 </template>
 

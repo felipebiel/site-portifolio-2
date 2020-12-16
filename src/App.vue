@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <Nav></Nav>
+    <Header></Header>
   </div>
 </template>
 
 <script>
-import Nav from './components/nav/Nav.vue';
+import Header from './components/header/Header.vue';
 
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Header
   }
 }
 </script>

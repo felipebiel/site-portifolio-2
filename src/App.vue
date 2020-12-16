@@ -7,6 +7,7 @@
       <Skills></Skills>
       <Work></Work>
       <Contact></Contact>
+      <Footer></Footer>
     </main>
   </div>
 </template>
@@ -18,6 +19,7 @@ import About from '@/components/about/About.vue';
 import Skills from '@/components/skills/Skills.vue';
 import Work from '@/components/work/Work.vue';
 import Contact from '@/components/contact/Contact.vue';
+import Footer from '@/components/footer/Footer.vue';
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
     About,
     Skills,
     Work,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>

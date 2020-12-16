@@ -3,13 +3,17 @@
     <section class="about section" id="about">
         <h2 class="section-title">Sobre</h2>
         <div class="about__container bg-grid">
-            <div class="about__img">
+            <div class="about__img" v-scroll-reveal.reset="{ origin: 'top',
+            distance: '80px', duration: 2000 }">
                 <img src="../../static/img/profile1.png" alt="">
             </div>
 
             <div>
-                <h2 class="about__subtitle">Eu sou o Felipe Biel</h2>
-                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate autem
+                <h2 class="about__subtitle" v-scroll-reveal.reset="{ delay: 200, origin: 'top',
+                distance: '80px', duration: 2000 }">Eu sou o Felipe Biel</h2>
+                <p class="about__text" v-scroll-reveal.reset="{ delay: 400, origin: 'top',
+                distance: '80px', duration: 2000 }">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Cupiditate autem
                     quisquam commodi aut tempora unde at blanditiis nemo. Sed, corporis cupiditate recusandae soluta
                     dolor magnam rerum nostrum officia accusamus consequuntur!</p>
             </div>

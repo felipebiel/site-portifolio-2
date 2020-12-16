@@ -9,6 +9,7 @@ import VueScrollReveal from 'vue-scroll-reveal';
 
 Vue.use(VueScrollReveal);
 
+
 Vue.use(VueScrollReveal, {
   class: 'v-scroll-reveal',
   origin: 'top',

@@ -2,9 +2,12 @@
     <h2 class="section-title">Contato</h2>
     <div class="contact__container bg-grid">
         <form action="" class="contact__form">
-            <input type="text" name="" id="" class="contact__input" placeholder="Name">
-            <input type="text" name="" id="" class="contact__input" placeholder="E-mail">
-            <textarea name="" id="" cols="30" rows="10" class="contact__input"></textarea>
+            <input type="text" name="" id="" class="contact__input" v-scroll-reveal.reset="{ interval: 200, origin: 'top',
+            distance: '80px', duration: 2000 }" placeholder="Name">
+            <input type="text" name="" id="" class="contact__input" v-scroll-reveal.reset="{ interval: 200, origin: 'top',
+            distance: '80px', duration: 2000 }" placeholder="E-mail">
+            <textarea name="" id="" cols="30" rows="10" class="contact__input" v-scroll-reveal.reset="{ interval: 200, origin: 'top',
+            distance: '80px', duration: 2000 }"></textarea>
             <input type="button" value="Enviar" class="contact__button button">
         </form>
     </div>
